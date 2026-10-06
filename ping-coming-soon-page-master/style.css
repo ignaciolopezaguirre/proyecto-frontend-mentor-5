@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Dosis:wght@500&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: "border-box";
+}
+
+body {
+  font-family: "Liberation Sans", sans-serif;
+  min-heigth: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  /* gap: 500px; */
+}
+.logo {
+  width: 80px;
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 80px auto 40px auto;
+  padding: 0 20px;
+}
+
+.hero-section {
+  h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: hsl(0, 0%, 59%);
+  }
+  .bold {
+    font-weight: 600;
+    color: black;
+  }
+  .text {
+    padding-top: 20px;
+    color: #00000f;
+    font-size: 20px;
+  }
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 20px;
+
+  max-width: 600px;
+}
+
+.imagen img {
+  width: 100%;
+  /* display: block; */
+  max-width: 640px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  padding: 0.5rem;
+}
+
+.input-form {
+  padding: 15px;
+  width: 350px;
+  border-radius: 30px;
+  border: 1px solid hsl(223, 100%, 88%);
+  color: hsl(223, 100%, 88%);
+}
+
+.input-form::placeholder {
+  color: hsl(223, 100%, 88%);
+  opacity: 1;
+}
+
+button {
+  width: 200px;
+  border-radius: 30px;
+  background-color: hsl(223, 87%, 63%);
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
